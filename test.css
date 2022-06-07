@@ -1,0 +1,148 @@
+
+body {
+    margin: 0 auto;
+    background-color: rgb(55,65,81);
+    color: white;
+    height: 500vh;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul li {
+    list-style: none;
+}
+
+
+
+.listLine {
+    border-left: 3px solid gray;
+    height: 1500px;
+    position: absolute;
+    left: 15%;
+    top: 1200px;
+    z-index: 99;
+}
+
+/* nav */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 12px;
+    background-color: rgb(251,251,251, 0.9);
+    border-bottom: 2px solid gray;
+    position: fixed;
+    width: 100%;    
+    z-index: 100;
+    top: 0;
+}
+
+nav #devTitle {
+    position: absolute;
+    left: 25px;
+    top: 15px;
+    color: rgb(6, 199, 85);
+}
+
+.menu {
+    display: flex;
+    text-align: center;
+}
+
+.menu li {
+    padding: 10px 50px;
+    border-bottom: 3px solid rgb(251, 251, 251, 0);
+}
+
+.menu li:hover {
+    border-bottom: 2px solid rgb(6, 199, 85);
+    opacity: 0.7;
+}
+
+#testBorder {
+    border-bottom: 2px solid rgb(6, 199, 85);
+    opacity: 0.7;
+}
+
+.icon {
+    font-size: 40px;
+    padding-right: 40px;
+}
+
+/* nav end */
+.icon2 {
+    font-size: 50px;
+    border: 7px solid black;
+    border-radius: 25px;
+    padding: 5px;
+    display: inline;
+}
+/* title */
+
+.title {
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+
+.title h1 {
+    font-size: 60px;
+    margin-bottom: 100px;
+}
+
+.picIcon {
+    display: inline;
+    font-size: 50px;
+    border: 3px solid white;
+    border-radius: 15px;
+    padding: 7px;
+    margin: 5px;
+}
+/* test */
+
+.mainText {
+    text-align: center;
+    font-size: 60px;
+}
+
+.mainText h1 {
+    /* background: linear-gradient(to bottom, rgb(216, 216, 216),rgba(0, 251, 255, 0.603));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+}
+
+/* 서로 대칭되는 gradient */
+
+.gradient {
+    height:500px;
+    background: linear-gradient(170deg, rgb(55,65,81) 50%, rgb(17,24,39) 50%);
+}
+
+
+.gradient2 {
+    height:500px;
+    background: linear-gradient(170deg, rgb(17,24,39) 50%,rgb(55,65,81) 50%);
+}
+
+/* 서로 대칭되는 gradient */
+
+/* video 삽입 디자인 + 구도 + 크기 정하기 */
+.testVideo {
+    margin-left: 200px;
+    float: left;
+}
+
+.testImg {
+    float: right;
+}
+
+/* .gradient2 {
+    height:700px;
+    background: linear-gradient(352deg, rgb(110, 132, 168) 50%, rgb(45, 50, 60) 50%);
+        background: linear-gradient(170deg, rgb(55,65,81) 50%, rgb(17,24,39) 50%);
+
+} */
